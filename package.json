@@ -2,11 +2,19 @@
   "name": "cee-logger",
   "version": "1.0.0",
   "description": "Node Cee logger using winston",
+  "author": "Tyler Swayne",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/mocha/bin/mocha --recursive"
   },
-  "author": "Tyler Swayne",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tswayne/cee-logger"
+  },
+  "keywords": [
+    "cee",
+    "logger"
+  ],
   "license": "ISC",
   "dependencies": {
     "winston": "^2.2.0"
