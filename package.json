@@ -1,0 +1,18 @@
+{
+  "name": "cee-logger",
+  "version": "1.0.0",
+  "description": "Node Cee logger using winston",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha --recursive"
+  },
+  "author": "Tyler Swayne",
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
